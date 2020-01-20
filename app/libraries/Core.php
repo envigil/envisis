@@ -51,6 +51,7 @@ class Core extends Controller
             //redirect  Pages controller if the page was inputted in the URL.. 
             $this->currentController     =  ucwords($url[0]);
 
+            //if admin page was requested, Register index page to it
             if (strtolower($this->currentController) == "admin") {
                 $this->currentMethod = "index";
             }

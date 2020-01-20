@@ -1,0 +1,122 @@
+/***************************************************/
+.left-sidebar {
+  background-color: #1e2129 !important;
+}
+.logo-side {
+  background-color: inherit !important  ;
+}
+
+.en-icon-align {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .en-icon-align  :hover {
+  color: #0b8e25 !important;
+} */
+
+.en-text-align {
+  font-size: larger;
+  color: #a6b7bf;
+}
+.dropmenu {
+  position: absolute;
+  left: 100%;
+  color: white;
+  background-color: #1e2129;
+  width: max-content;
+  padding: 10px 15px 10px 15px;
+}
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+.caretIcon {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: xx-large;
+  right: 98%;
+  line-height: 0.8em !important;
+}
+.caretIcon i {
+  color: #1e2129;
+  height: auto !important;
+  width: auto !important;
+  margin: 0% !important;
+  z-index: 10;
+}
+.sub-drop-menu {
+  width: max-content;
+}
+.sub-drop-menu > a {
+  padding: 8px 15px 8px 15px !important ;
+}
+
+.clicker {
+  cursor: pointer;
+}
+
+.clicker:hover {
+  /* cursor: pointer; */
+  color: green !important;
+  background-color: rgba(0, 0, 0, 0.612);
+}
+
+.sidebar-icons i:hover {
+  color: green !important;
+}
+
+.en-table {
+  border: 0px !important ;
+}
+.en-thead {
+  font-weight: lighter !important;
+  border-top: 0px !important;
+  border-bottom: 4px solid #edf1f5 !important;
+  font-family: "Asap Condensed" !important;
+
+  font-size: 16px;
+}
+
+.en-row {
+  color: #0c8d1dee !important ;
+  font-family: "Ropa Sans";
+  /* border-bottom: 4px solid #edf1f5 !important; */
+}
+.en-page-name {
+  font-weight: bolder;
+}
+.trans-back {
+  background-color: transparent !important;
+  border: 0px !important;
+  box-shadow: none !important;
+}
+.trans-back-border {
+  background-color: transparent !important;
+  border: 2px solid #0b8e25 !important;
+}
+
+.act-table {
+  background-color: rgb(95, 95, 95) !important;
+}
+
+.tab-tools {
+  cursor: pointer !important ;
+  font-size: 13px !important ;
+}
+.tr-box {
+  box-shadow: inset 0 0 5px #edf1f5;
+}
+.en-tfoot {
+  border-top: 4px solid #edf1f5 !important;
+  font-family: "Asap Condensed" !important;
+  font-weight: lighter !important;
+  font-size: 16px;
+}
